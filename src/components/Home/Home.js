@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
+import Footer from "../Footer";
 
 function Home() {
   return (
@@ -33,6 +34,7 @@ function Home() {
               <Col></Col>
             </Row>
           </Container>
+          <Footer />
       </Container>
       
     </section>

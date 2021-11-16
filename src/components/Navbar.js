@@ -49,7 +49,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> <span className="black"> Home </span>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -61,7 +61,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                <span className="black">Projects</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -71,7 +71,7 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Resume
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> <span className="black"> Resume </span>
               </Button>
             </Nav.Item>
             <Nav.Item className="fork-btn" >
@@ -80,7 +80,7 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About Me
+                <AiOutlineUser style={{ marginBottom: "2px" }} /><span className="black"> About Me</span>
               </Button>
             </Nav.Item>
             <Nav.Item>
