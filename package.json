@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jamesgli520.github.io/React-Portfolio-James/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
@@ -16,19 +17,18 @@
     "react-icons": "^4.2.0",
     "react-parallax-tilt": "^1.4.68",
     "react-particles-js": "^3.4.1",
-    "react-pdf": "^5.4.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "typewriter-effect": "^2.17.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
