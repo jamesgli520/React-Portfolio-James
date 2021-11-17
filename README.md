@@ -1,6 +1,6 @@
 # React-Portfolio-James
 
-**Version 3.0**
+**Version 1.0**
 
 # Table of Contents:
 * [Description](#description)
@@ -16,7 +16,7 @@ This is a personal portfolio website built using React and Bootstrap.
 **Internal Navigation on the top of website**
 
 <p>
-    <img src="src\Assets\screenshothomepage.PNG"  width="1000px" height="500px"/></br></br>
+    <img src="src\Assets\screenshothomepage.PNG"  width="1000px" height="500px"/>
 </p>
 
 ## Installation
